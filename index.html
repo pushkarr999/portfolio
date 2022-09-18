@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pushkar Sutar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/ico.png">
+    <script src="https://kit.fontawesome.com/055b42c6da.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="logo" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I am <span>Pushkar Sutar</span><br> from SPIT.</h1>
+            </div>
+        </div>
+    </div>
+<!-- -----------about-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" alt="profile-pic">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Enthusiastic learner with the ability to quickly pick up new languages, tools and software applications.<br>
+                    Dedicated team member who is known for organizational skills and commitment to excellence.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>Sardar Patel Institute of Technology</span><br>BTech in Electronics Engineering with Minors in CS.<br>CGPI: 9.55</li>
+                            <li><span>Shiravane Vidyalaya and Junior College</span><br>HSC: 84.60%</li>
+                            <li><span>St.Joseph's High School</span><br>SSC: 94%</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Computer Languages</span><br>C, C++, Java, Python, C#.</li>
+                            <li><span>Libraries & APIs</span><br>Scikit, Sklearn, Librosa, OpenCV.</li>
+                            <li><span>Tools</span><br>Unity3D, Unreal Engine, MATLAB, Android Studio.</li>
+                            <li><span>Other Skills</span><br>Machine Learning, AI, image and audio processing, music composition.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="hobbies">
+                        <ul>
+                            <li><span>Guitar and Harmonica</span></li>
+                            <li><span>Singing</span></li>
+                            <li><span>Competitive Programming</span></li>
+                            <li><span>Cricket</span></li>
+                            <li><span>Chess</span></li>
+                            <li><span>Cooking</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ----------------experience---------------- -->
+    <div id="experience">
+        <div class="container">
+            <h1 class="subtitle">My Experience</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-book"></i>
+                    <h2>Research Intern</h2>
+                    <h3>Bhabha Atomic Research Centre</h3>
+                    <p>· Analysing the data obtained from the gamma radiations in order to detect leaks in heat exchangers. <br>
+                        · Developing an easy to use solution for leak detection based on the analysed data</p>
+                    <a href="https://drive.google.com/file/d/1iw9vgDxs2MtmwrymnbAesMXqwbafuHYn/view?usp=sharing">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-robot"></i>
+                    <h2>Programming Intern</h2>
+                    <h3>The Innovation Story</h3>
+                    <p>· Responsibility for designing/selecting robotic systems, run simulation, implementation, and programming.<br>
+                        · NI Roborio advanced robotics controller for commanding joysticks, motor controllers and other FRC
+                        control system components.<br>
+                        · Working to develop programs using Java WPILib and FRC Tools for Moving Ball Shooter robot control
+                        and automation.</p>
+                    <a href="https://drive.google.com/file/d/1_Ud18ADYIYv4FS7lVXYiJEYsnGOXl-eD/view?usp=sharing">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-shield-halved"></i>
+                    <h2>Engineering Virtual Internship</h2>
+                    <h3>Goldman Sachs</h3>
+                    <p>· Identifying and reporting the cyber security issues from a database.<br>
+                        · Suggesting and developing effective hashing techniques to maintain security of the database</p>
+                    <a href="https://drive.google.com/file/d/1HcVCr_FXMlg2i792tIopVXYXWfljYEhb/view?usp=sharing">Learn more</a>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------portfolio----------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpg" alt="w1">
+                    <div class="layer">
+                        <h3>Speech Emotion Recognition</h3>
+                        <p>· Implemented MLP-classification model with scikit-learn from Python open-source library.<br>
+                            · Used Librosa python package for audio analysis and extraction of features and RAVDESS dataset for training</p>
+                        <a href="https://github.com/pushkarr999/Speech-Emotion-Recognition"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.jpg" alt="w1">
+                    <div class="layer">
+                        <h3>Music Generation using 8051</h3>
+                        <p>· Low-cost device for musicians designed to work in different modes of applications like metronome, manual keypad
+                            based composition of music, tuner and, song library</p>
+                        <a href="https://github.com/pushkarr999/Music-Generator-8051uC"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="w1">
+                    <div class="layer">
+                        <h3>Realtime Sudoku Solver</h3>
+                        <p>· Sudoku grid detection using OpenCV Python and backtracking algorithm to solve sudoku in realtime. Uses Keras
+                            for digit recognition</p>
+                        <a href="https://github.com/pushkarr999/SudokuSolver"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ------------contact me------------------ -->
+
+    <div id="contact">
+        <div class="container">
+            <h1 class="subtitle2">Connect With Me</h1>
+            <div class="contact-list">
+                <div>
+                    <h3>Address</h3>
+                    <hr>
+                    <p>Amarante, Navi Mumbai <br> Maharshtra, 410218.</p>
+                </div>
+                <div>
+                    <h3>Contact</h3>
+                    <hr>
+                    <p>+91 8828245848 <br>pushkarsutar999@gmail.com</p>
+                </div>
+                <div>
+                    <h3>Socials</h3>
+                    <hr>
+                    <div class="grid">
+                        <div class="socials">
+                            <a href="https://www.linkedin.com/in/pushkar-sutar/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <div class="socials">
+                            <a href="https://www.instagram.com/pushkar_999_/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="socials">
+                            <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <div class="socials">
+                            <a href="https://github.com/pushkarr999"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    
+
+</body>
+</html>
